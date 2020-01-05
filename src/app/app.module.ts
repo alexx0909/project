@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { LoginComponent } from './login/login.component';
-import { HeaderComponent } from './header/header.component';
 import { FormsModule } from '@angular/forms';
 
 @NgModule({
@@ -14,8 +13,7 @@ import { FormsModule } from '@angular/forms';
     AppComponent,
     HomeComponent,
     ContactComponent,
-    LoginComponent,
-    HeaderComponent
+    LoginComponent
    
   ],
   imports: [
